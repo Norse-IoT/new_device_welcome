@@ -22,7 +22,7 @@ String guestOrg = "iLead";
 String teamNumber = "001";
 
 // Separate each line with a \n. 
-String inputMessage = "and the\nCollege of Informatics\nwelcomes " + guestOrg + " - Team " + teamNumber + " to NKU!";
+String inputMessage = "and the\nCollege of Informatics\nwelcome " + guestOrg + " - Team " + teamNumber + " to NKU!";
 
 #define SERIAL_BAUD 115200 // 115200 is the NorseIoT club standard
 
