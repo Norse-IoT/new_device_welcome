@@ -11,18 +11,18 @@ The script output looks like this:
    / /|  / /_/ / /  (__  )  __// // /_/ / /      
   /_/ |_/\____/_/  /____/\___/___/\____/_/       
                      and the  
-             College of Informatics  
-        welcomes iLead - Team 001 to NKU!  
+                  INTERalliance  
+        welcomes Student - Team 001 to TechOlympics 2024!  
 +-------------------------------------------------+
 */
 
 #include <Arduino.h>
 
-String guestOrg = "iLead";
+String guestOrg = "Student";
 String teamNumber = "001";
 
 // Separate each line with a \n. 
-String inputMessage = "and the\nCollege of Informatics\nwelcome " + guestOrg + " - Team " + teamNumber + " to NKU!";
+String inputMessage = "and the\nINTERalliance\nwelcome " + guestOrg + " - Team " + teamNumber + " to TechOlympics 2024!";
 
 #define SERIAL_BAUD 115200 // 115200 is the NorseIoT club standard
 
